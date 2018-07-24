@@ -1,0 +1,25 @@
+{
+  "name": "get-openid-configuration",
+  "version": "1.0.0",
+  "description": "Simple node package to get the /.well-known/openid-configuration of your OpenID Connect provider.",
+  "author": "Thomas Schmitz",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test",
+    "dev": "node example.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tombout/get-openid-configuration.git"
+  },
+  "keywords": [
+    "openid"
+  ],
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "nock": "^9.4.3",
+    "get-openid-configuration": "file:index.js"
+  }
+}

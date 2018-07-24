@@ -6,7 +6,7 @@
   "license": "MIT",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test",
+    "test": "nyc --reporter=html --reporter=text mocha test",
     "dev": "node example.js"
   },
   "repository": {
@@ -18,8 +18,9 @@
   ],
   "devDependencies": {
     "chai": "^4.1.2",
+    "get-openid-configuration": "file:.",
     "mocha": "^5.2.0",
     "nock": "^9.4.3",
-    "get-openid-configuration": "file:."
+    "nyc": "^12.0.2"
   }
 }

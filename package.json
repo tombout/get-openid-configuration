@@ -20,6 +20,6 @@
     "chai": "^4.1.2",
     "mocha": "^5.2.0",
     "nock": "^9.4.3",
-    "get-openid-configuration": "file:index.js"
+    "get-openid-configuration": "file:."
   }
 }

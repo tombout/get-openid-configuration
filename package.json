@@ -1,6 +1,6 @@
 {
   "name": "get-openid-configuration",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple node package to get the /.well-known/openid-configuration of your OpenID Connect provider.",
   "author": "Thomas Schmitz",
   "license": "MIT",
